@@ -1,0 +1,30 @@
+/**
+.carousel a {
+  display: block;
+  &:not(:first-child) {
+    display: none;
+  }
+}
+
+#carousel{
+  max-height: 340px;
+}
+
+.slider-caption{
+  position: absolute;
+  top:10%;
+  left: 90px;
+  margin-bottom: 0;
+  color: #fff;
+  max-width: 340px;
+}
+
+.slick-slide:not(.slick-current) .img-carousel.lazyload {
+  display: none!important;
+}
+.slick-slide figure{
+  position: absolute;
+  top: 0;
+}
+*/
+
